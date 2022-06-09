@@ -131,7 +131,7 @@ public class MainFrame extends JFrame implements ActionListener {
 
     private boolean DatosCorrectos(String respuesta, int numColumnas){
         if(!Controlador.getSingleton().comprobarColumnas(respuesta,numColumnas)) {
-            mensaje.setText("Datos introducidos incorrectos");
+            mensaje.setText("Entornos 2022");
             return false;
         }else return true;
     }
