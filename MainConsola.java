@@ -33,7 +33,7 @@ public class MainConsola {
 
             switch (opcion){
                 case 1:
-                    System.out.println("Introduzca los datos de checkeo");
+                    System.out.println("Entornos 2022 en otra rama");
                     s.nextLine();
                     respuesta=s.nextLine();
                     if (!Controlador.getSingleton().comprobarColumnas(respuesta,NUM_COLUMNAS_1)) System.out.println("Formato no adecuado");
